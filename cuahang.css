@@ -1,0 +1,129 @@
+div.menu{
+    background-color: rgb(77, 77, 200);
+    height:30px;
+}
+ul.menungang{
+    list-style: none;
+    width:900px;
+    margin:auto;
+    text-align: center;
+}
+ul.menungang li{
+    display:inline;
+}
+ul.menungang li a{
+    text-decoration: none;
+    color:white;
+    padding: 6px 15px 6px 15px;
+    display:inline-block;
+    transition: 0.4s;
+
+}
+ul.menungang li a:hover{
+  
+    color:black;
+
+}
+div.slides{
+    width:900px;
+    margin:auto;
+    margin-top: 20px;
+}
+a.carousel-control-prev{
+    margin-left: 200px;
+    margin-bottom: 225px;
+
+}
+a.carousel-control-next{
+    margin-right: 200px;
+    margin-bottom: 225px;
+
+    
+}
+div.content{
+    margin:auto;
+}
+div.effect{
+    width:300px;
+    height:400px;
+    position: relative;
+    margin-top:20px;
+    background-color: #414141;
+}
+div.effect img.picture1{
+    width:300px;
+    height:300px;
+}
+div.effect img.picture2{
+    width:300px;
+    height:300px;
+    opacity: 0;
+    position: absolute;
+    top:0px;
+    left:0px;
+    transition: 0.4s;
+}
+div.effect:hover img.picture2{
+ 
+    opacity: 1;
+}
+div.effect .layer3{
+    width:300px;
+    display:flex;
+    margin-top: 10px;
+
+}
+div.effect .layer3 .left{
+    width:50%;
+}
+div.effect .layer3 .left a{
+    text-decoration: none;
+    color:white;
+}
+div.effect .layer3 .left a:HOVER{
+   color:blue;
+}
+div.effect .layer3 .right{
+    width:50%;
+    text-align: end;
+    color:white;
+
+}
+div.effect .layer4{
+    color:white;
+    position: absolute;
+    left:0px;
+    bottom: 20px;
+    opacity:1;
+    transition: 0.4s;
+
+}
+div.effect:hover .layer4{
+    opacity:0;
+}
+div.effect .layer5{
+    color:white;
+    position: absolute;
+    left:0px;
+    bottom: 20px;
+    opacity:0;
+    transition: 0.4s;
+
+}
+div.effect:hover .layer5{
+
+    opacity:1;
+
+
+}
+div.content{
+    width:1000px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+body{
+    font-size: 15px;
+    font-family: segoe ui;
+    background-color: black;
+}
